@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const DiaryEditor = () => {
-  const [author, setAuthor] = useState();
+  const [author, setAuthor] = useState("");
 
   return (
     <div>
