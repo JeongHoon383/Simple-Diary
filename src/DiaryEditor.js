@@ -16,6 +16,7 @@ const DiaryEditor = () => {
           value={state.author}
           onChange={(e) => {
             setState.setAuthor(e.target.value);
+            console.log(e.target.value);
           }}
         />
       </div>
