@@ -11,6 +11,7 @@ const DiaryEditor = () => {
     setState({
       ...state,
       [e.target.name]: e.target.value,
+      console.log(e);
     });
   };
 
